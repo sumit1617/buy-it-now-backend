@@ -1,14 +1,14 @@
 const app = require("./app")
 const connectDatabase = require("./config/database")
 const cloudinary = require("cloudinary").v2
-// const cors = require("cors")
+const cors = require("cors")
 
 
-// app.use(cors({
-//     origin: ["https://buy-it-now-backend.vercel.app/"],
-//     methods: ["POST", "GET", "PUT", "DELETE"],
-//     credentials: true
-//   }))
+app.use(cors({
+    origin: ["https://buy-it-now-backend.vercel.app/"],
+    methods: ["POST", "GET", "PUT", "DELETE"],
+    credentials: true
+  }))
 
 
 // Config
