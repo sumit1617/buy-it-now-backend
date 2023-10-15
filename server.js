@@ -5,7 +5,7 @@ const cors = require("cors")
 
 
 app.use(cors({
-    origin: ["https://buy-it-now-backend.vercel.app/"],
+    origin: [""],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true
   }))
