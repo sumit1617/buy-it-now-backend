@@ -5,7 +5,7 @@ const cors = require("cors")
 
 
 app.use(cors({
-    origin: [""],
+    origin: ["https://brilliant-concha-7db27b.netlify.app"],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true
   }))
